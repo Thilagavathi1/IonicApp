@@ -1,3 +1,25 @@
 page-hello-ionic {
+  .icon-color {
+    color: #c45810 !important;
+  }
+  p {
+    margin: 20px 0;
+    line-height: 22px;
+    font-size: 16px;
+  }
+  .alertCustomCss {
+    background-color: white;
+    color: rgb(255, 136, 0);
+    button {
+      color: rgb(0, 255, 106);
+    }
+  }
 
+  .alertDanger {
+    background-color: yellow !important;
+    color: red;
+    button {
+      color: red;
+    }
+  }
 }
