@@ -27971,31 +27971,3 @@ ion-navbar.toolbar {
   min-height: calc(46px + constant(safe-area-inset-bottom));
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
-
-page-hello-ionic .icon-color {
-  color: #c45810 !important;
-}
-
-page-hello-ionic p {
-  margin: 20px 0;
-  line-height: 22px;
-  font-size: 16px;
-}
-
-page-hello-ionic .alertCustomCss {
-  background-color: white;
-  color: #ff8800;
-}
-
-page-hello-ionic .alertCustomCss button {
-  color: #00ff6a;
-}
-
-page-hello-ionic .alertDanger {
-  background-color: yellow !important;
-  color: red;
-}
-
-page-hello-ionic .alertDanger button {
-  color: red;
-}

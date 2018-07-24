@@ -36,7 +36,7 @@ export class HelloIonicPage {
                 }
               },
               function() {
-                console.log("hello");
+                console.log("yes");
               },
               function() {
                 console.log("Failed to send Android broadcast intent");
@@ -46,38 +46,6 @@ export class HelloIonicPage {
         }
       ],
       cssClass: "alertDanger"
-    });
-    alert.present();
-  }
-  presentPrompt() {
-    let alert = this.alertCtrl.create({
-      title: "Login",
-      cssClass: "alertCustomCss",
-      inputs: [
-        {
-          name: "username",
-          placeholder: "Username"
-        },
-        {
-          name: "password",
-          placeholder: "Password",
-          type: "password"
-        }
-      ],
-      buttons: [
-        {
-          text: "Cancel",
-          role: "cancel",
-
-          handler: data => {
-            console.log("Cancel clicked");
-          }
-        },
-        {
-          text: "Login",
-          handler: data => {}
-        }
-      ]
     });
     alert.present();
   }
