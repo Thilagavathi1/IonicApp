@@ -1,21 +1,17 @@
 <ion-header>
-  <ion-navbar>
-
+  <ion-navbar color="header">
     <ion-title style="text-align:center">Deep Link Demo</ion-title>
   </ion-navbar>
 </ion-header>
 
 
 <ion-content padding>
-
-  <ion-row style="text-align:center">
-    <ion-col style="text-align:center">
-      <button ion-button color="light" (click)="presentConfirm()">Post Trip Inspection</button>
-    </ion-col>
-
-
-
-  </ion-row>
-
+  <ion-grid>
+    <ion-row>
+      <ion-col style="text-align:center">
+        <button ion-button color="light" (click)="presentConfirm()">Post Trip Inspection</button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
 </ion-content>
